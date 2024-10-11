@@ -3,6 +3,9 @@
 -- NOTE: You can change these options as you wish!
 --  For more options, you can see `:help option-list`
 
+-- Nvim explorer list style
+vim.cmd 'let g:netrw_liststyle = 3'
+
 -- Make line numbers default
 vim.opt.number = true
 vim.opt.relativenumber = true
