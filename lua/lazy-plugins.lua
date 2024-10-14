@@ -42,17 +42,19 @@ require('lazy').setup({
 
   require 'kickstart/plugins/treesitter',
 
-  require 'snork/nvim-tree',
+  --require 'snork/nvim-tree',
 
-  require 'snork/gruvbox',
+  --require 'snork/gruvbox',
 
-  require 'snork/alpha',
+  --require 'snork/alpha',
 
-  require 'snork/auto-session',
+  --require 'snork/auto-session',
 
-  require 'snork/bufferline',
+  --require 'snork/bufferline',
 
-  require 'snork/lualine',
+  --require 'snork/lualine',
+
+  --require 'snork/dressing',
 
   -- The following two comments only work if you have downloaded the kickstart repo, not just copy pasted the
   -- init.lua. If you want these files, they are in the repository, so you can just download them and
@@ -74,7 +76,7 @@ require('lazy').setup({
   --
   --  Uncomment the following line and add your plugins to `lua/custom/plugins/*.lua` to get going.
   --    For additional information, see `:help lazy.nvim-lazy.nvim-structuring-your-plugins`
-  -- { import = 'custom.plugins' },
+  { import = 'snork' },
 }, {
   ui = {
     -- If you are using a Nerd Font: set icons to an empty table which will use the
@@ -93,6 +95,15 @@ require('lazy').setup({
       start = '🚀',
       task = '📌',
       lazy = '💤 ',
+    },
+  },
+  {
+    checker = {
+      enabled = true,
+      notify = false,
+    },
+    change_detection = {
+      notify = false,
     },
   },
 })
