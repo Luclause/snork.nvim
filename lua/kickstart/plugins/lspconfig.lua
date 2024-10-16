@@ -165,6 +165,15 @@ return {
         vim.fn.sign_define(hl, { text = icon, texthl = hl, numhl = '' })
       end
 
+      -- Diagnostic configuration
+      -- vim.diagnostic.config {
+      --   virtual_text = false,
+      --   signs = true,
+      --   underline = false,
+      --   update_in_insert = false,
+      --   severity_sort = false,
+      -- }
+
       -- Enable the following language servers
       --  Feel free to add/remove any LSPs that you want here. They will automatically be installed.
       --
@@ -177,7 +186,7 @@ return {
       local servers = {
         -- clangd = {},
         gopls = {},
-        pyright = {},
+        -- pyright = {},
         rust_analyzer = {},
         bashls = {},
         dockerls = {},
@@ -227,7 +236,7 @@ return {
         'prettier', -- prettier formatter
         'isort', -- python formatter
         'black', -- python formatter
-        'pylint',
+        -- 'pylint',
         'eslint_d',
       })
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
