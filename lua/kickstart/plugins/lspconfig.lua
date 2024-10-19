@@ -238,6 +238,7 @@ return {
         'black', -- python formatter
         -- 'pylint',
         'eslint_d',
+        'tflint', -- terraform linter
       })
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 
@@ -253,6 +254,14 @@ return {
           end,
         },
       }
+
+      -- Terraform Auto-format
+      vim.api.nvim_create_autocmd({ 'BufWritePre' }, {
+        pattern = { '*.tf', '*.tfvars' },
+        callback = function()
+          vim.lsp.buf.format()
+        end,
+      })
     end,
   },
 }
