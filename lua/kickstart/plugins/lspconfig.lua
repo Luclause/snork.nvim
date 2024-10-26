@@ -186,7 +186,7 @@ return {
       local servers = {
         -- clangd = {},
         gopls = {},
-        -- pyright = {},
+        ruff = {},
         rust_analyzer = {},
         bashls = {},
         dockerls = {},
@@ -234,9 +234,6 @@ return {
       vim.list_extend(ensure_installed, {
         'stylua', -- Used to format Lua code
         'prettier', -- prettier formatter
-        'isort', -- python formatter
-        'black', -- python formatter
-        -- 'pylint',
         'eslint_d',
         'tflint', -- terraform linter
       })
