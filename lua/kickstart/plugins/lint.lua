@@ -9,6 +9,7 @@ return {
         markdown = { 'markdownlint' },
         terraform = { 'tflint' },
         python = { 'ruff' },
+        json = { 'jqls' },
       }
 
       -- To allow other plugins to add linters to require('lint').linters_by_ft,
