@@ -1,10 +1,6 @@
 require('lazy').setup({
   'tpope/vim-sleuth', -- Detect tabstop and shiftwidth automatically
 
-  -- [[ Modular nvim plugins]]
-  -- `require 'path/name'`
-  -- include plugin definition from file (e.g. lua/path/name.lua)
-
   require 'kickstart/plugins/gitsigns',
 
   require 'kickstart/plugins/which-key',
