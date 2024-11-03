@@ -10,6 +10,7 @@ return {
         terraform = { 'tflint' },
         python = { 'ruff' },
         json = { 'jsonlint' },
+        powershell = { 'powershell_es' },
       }
 
       -- Create autocommand which carries out the actual linting on specific events
