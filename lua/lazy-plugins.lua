@@ -1,25 +1,15 @@
 require('lazy').setup({
+
+  { import = 'plugins/core' },
+
+  { import = 'plugins/util' },
+
+  { import = 'plugins/lsp' },
+
+  { import = 'plugins/themes' },
+
   'tpope/vim-sleuth', -- Detect tabstop and shiftwidth automatically
 
-  require 'kickstart/plugins/gitsigns',
-
-  require 'kickstart/plugins/which-key',
-
-  require 'kickstart/plugins/telescope',
-
-  require 'kickstart/plugins/lspconfig',
-
-  require 'kickstart/plugins/conform',
-
-  require 'kickstart/plugins/cmp',
-
-  require 'kickstart/plugins/mini',
-
-  require 'kickstart/plugins/treesitter',
-
-  require 'kickstart.plugins.lint',
-
-  { import = 'snork' },
 }, {
   ui = {
     icons = vim.g.have_nerd_font and {} or {
