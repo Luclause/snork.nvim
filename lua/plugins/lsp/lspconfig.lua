@@ -151,6 +151,7 @@ return {
         'tflint', -- terraform linter
         'jq', -- json formatter
         'jsonlint', -- json linter
+        'markdownlint', -- markdown linter
       })
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 
