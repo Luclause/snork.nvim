@@ -4,12 +4,11 @@ require('lazy').setup({
 
   { import = 'plugins/util' },
 
-  { import = 'plugins/lsp' },
+  { import = 'plugins/mason' },
 
   { import = 'plugins/themes' },
 
   'tpope/vim-sleuth', -- Detect tabstop and shiftwidth automatically
-
 }, {
   ui = {
     icons = vim.g.have_nerd_font and {} or {
