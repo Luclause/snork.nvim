@@ -31,6 +31,9 @@ return {
       local dapui = require 'dapui'
       dapui.setup()
 
+      vim.keymap.set('n', '<leader>du', "<CMD>lua require('dapui').open()<CR>", { desc = '[D]ap UI Open' })
+      vim.keymap.set('n', '<leader>dx', "<CMD>lua require('dapui').close()<CR>", { desc = '[D]ap UI Close' })
+
       dap.listeners.before.attach.dapui_config = function()
         dapui.open()
       end
