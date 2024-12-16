@@ -1,11 +1,1 @@
-return {
-  'akinsho/bufferline.nvim',
-  dependencies = { 'nvim-tree/nvim-web-devicons' },
-  version = '*',
-  opts = {
-    options = {
-      mode = 'tabs',
-      seperator_style = 'slant',
-    },
-  },
-}
+../../../../../dotfiles/.config/nvim/lua/plugins/core/bufferline.lua

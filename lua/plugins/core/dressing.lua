@@ -1,4 +1,1 @@
-return {
-  'stevearc/dressing.nvim',
-  event = 'VeryLazy',
-}
+../../../../../dotfiles/.config/nvim/lua/plugins/core/dressing.lua

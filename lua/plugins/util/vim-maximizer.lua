@@ -1,6 +1,1 @@
-return {
-  'szw/vim-maximizer',
-  keys = {
-    { '<leader>sm', '<cmd>MaximizerToggle<CR>', desc = 'Maximize/minimize a split' },
-  },
-}
+../../../../../dotfiles/.config/nvim/lua/plugins/util/vim-maximizer.lua
