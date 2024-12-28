@@ -26,7 +26,8 @@ return {
           window_picker = { enable = false },
         },
       },
-      git = { ignore = false },
+      -- git = { ignore = false },
+      git = { ignore = true },
     }
 
     -- keymaps
