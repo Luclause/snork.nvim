@@ -1,1 +1,0 @@
-../../../../dotfiles/.config/nvim/lua/unused_plugins/gruvbox.lua
