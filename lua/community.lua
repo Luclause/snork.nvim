@@ -7,6 +7,15 @@ if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
+
+  -- Packs
   { import = "astrocommunity.pack.lua" },
-  -- import/override with your plugins folder
+
+  -- Color Schemes (Themes)
+  { import = "astrocommunity.colorscheme.nordic-nvim" },
+  { import = "astrocommunity.colorscheme.tokyodark-nvim" },
+  { import = "astrocommunity.colorscheme.nord-nvim" },
+
+  -- Diagnostics
+  { import = "astrocommunity.diagnostics.trouble-nvim" },
 }
