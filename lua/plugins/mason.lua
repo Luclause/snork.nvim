@@ -10,8 +10,6 @@ return {
     -- overrides `require("mason-lspconfig").setup(...)`
     opts = {
       ensure_installed = {
-        "lua_ls",
-        "ruff",
         "marksman",
         "terraformls",
         "bashls",
