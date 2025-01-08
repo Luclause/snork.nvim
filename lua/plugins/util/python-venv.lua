@@ -12,7 +12,7 @@ return {
     },
   },
   keys = {
-    { '<leader>pv', '<cmd>VenvSelect<CR>' },
-    { '<leader>pc', '<cmd>VenvSelectCached<CR>' },
+    { '<leader>ps', '<cmd>VenvSelect<CR>', desc = 'Python: Select venv' },
+    { '<leader>pp', '<cmd>VenvSelectCached<CR>', desc = 'Python: Quick venv' },
   },
 }
