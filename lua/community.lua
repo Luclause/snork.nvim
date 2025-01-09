@@ -23,4 +23,7 @@ return {
 
   -- Scrolling
   { import = "astrocommunity.scrolling.mini-animate" },
+
+  -- Recipes
+  { import = "astrocommunity.recipes.telescope-nvchad-theme" },
 }
