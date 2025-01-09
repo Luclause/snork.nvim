@@ -8,7 +8,7 @@ return {
       lint.linters_by_ft = {
         markdown = { 'markdownlint' },
         terraform = { 'tflint' },
-        python = { 'ruff' },
+        python = { 'ruff', 'basedpyright' },
         json = { 'jsonlint' },
         powershell = { 'powershell_es' },
       }

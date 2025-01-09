@@ -110,7 +110,7 @@ return {
       local servers = {
         gopls = {},
         ruff = {},
-        pyright = {},
+        basedpyright = {},
         rust_analyzer = {},
         bashls = {},
         dockerls = {},
