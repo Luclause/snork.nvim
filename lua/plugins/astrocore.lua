@@ -30,6 +30,8 @@ return {
         spell = false, -- sets vim.opt.spell
         signcolumn = "yes", -- sets vim.opt.signcolumn to yes
         wrap = false, -- sets vim.opt.wrap
+        tabstop = 2, -- 2 spaces for tabs (prettier default)
+        shiftwidth = 2, -- 2 spaces for indent width
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)
