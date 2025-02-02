@@ -26,4 +26,7 @@ return {
 
   -- Recipes
   { import = "astrocommunity.recipes.telescope-nvchad-theme" },
+
+  -- Media
+  { import = "astrocommunity.media/codesnap-nvim"},
 }
